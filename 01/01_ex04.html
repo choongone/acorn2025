@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS 주석 시작
+        CSS 선택기:
+        - id선택은 #으로 시작
+        - class선택은 .으로 시작
+        - 태그 선택은 그냥 태그이름
+        - 속성 선택은 [속성]로 지정
+        */
+        ul#topmenu {
+            border: 1px solid blue;
+            padding: 0;
+            overflow: hidden;
+            width: 750px;
+        }
+        .title {
+            color: red
+        }
+        li {
+            background-color: yellow;
+            color: red;
+            list-style: none;
+            margin: 0;
+            border: 1px solid red;
+            width:150px;
+            height: 40px;
+            float: left;
+            box-sizing: border-box;
+            text-align: center;
+            line-height: 40px;
+        }
+        li : hover{
+            border-bottom: 2px solid :red;
+            background: yellow;
+            color: red;
+            front-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="title">길동이의 홈페이지</h1>
+        <nav>
+            <ul id="topmenu">
+                <li>HOME</li>
+                <li>PROFILE</li>
+                <li>GALLERY</li>
+                <li>BOARD</li>
+                <li>STUDY</li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+    <div>
+        <h1>길동이 홈페이지에 오신것을 환영합니다!</h1>
+        <h3>즐거운 시간 보내시길 바랍니다!</h3>
+    </div>
+</body>
+</html>
